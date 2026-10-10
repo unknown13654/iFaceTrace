@@ -1,0 +1,283 @@
+[
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license": "MIT-0",
+    "files": [
+      "cffi/cffi-2.1.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.4.7",
+    "license": "MIT",
+    "files": [
+      "charset-normalizer/charset_normalizer-3.4.7.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.1",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "files": [
+      "cryptography/cryptography-50.0.1.dist-info/licenses/LICENSE",
+      "cryptography/cryptography-50.0.1.dist-info/licenses/LICENSE.APACHE",
+      "cryptography/cryptography-50.0.1.dist-info/licenses/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "defusedxml",
+    "version": "0.7.1",
+    "license": "PSFL",
+    "files": [
+      "defusedxml/defusedxml-0.7.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.4.6",
+    "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "files": [
+      "numpy/numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "numpy/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+      "numpy/numpy/ma/LICENSE",
+      "numpy/numpy/random/LICENSE.md"
+    ]
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.24.4",
+    "license": "MIT License",
+    "files": [
+      "onnxruntime/onnxruntime/LICENSE",
+      "onnxruntime/onnxruntime/ThirdPartyNotices.txt"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.2",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "files": [
+      "packaging/packaging-26.2.dist-info/licenses/LICENSE",
+      "packaging/packaging-26.2.dist-info/licenses/LICENSE.APACHE",
+      "packaging/packaging-26.2.dist-info/licenses/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "12.2.0",
+    "license": "MIT-CMU",
+    "files": [
+      "pillow/pillow-12.2.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pi_heif",
+    "version": "1.3.0",
+    "license": "BSD-3-Clause",
+    "files": [
+      "pi_heif/pi_heif-1.3.0.dist-info/licenses/LICENSE.txt",
+      "pi_heif/pi_heif-1.3.0.dist-info/licenses/LICENSES_bundled.txt"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license": "BSD-3-Clause",
+    "files": [
+      "psutil/psutil-7.2.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license": "BSD-3-Clause",
+    "files": [
+      "pycparser/pycparser-3.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pycryptodome",
+    "version": "3.23.0",
+    "license": "BSD, Public Domain",
+    "files": [
+      "pycryptodome/pycryptodome-3.23.0.dist-info/LICENSE.rst"
+    ]
+  },
+  {
+    "name": "pyinstaller",
+    "version": "6.20.0",
+    "license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+    "files": [
+      "pyinstaller/pyinstaller-6.20.0.dist-info/licenses/COPYING.txt"
+    ]
+  },
+  {
+    "name": "pyinstaller-hooks-contrib",
+    "version": "2026.5",
+    "license": null,
+    "files": [
+      "pyinstaller-hooks-contrib/pyinstaller_hooks_contrib-2026.5.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pyreadline3",
+    "version": "3.5.6",
+    "license": "BSD",
+    "files": [
+      "pyreadline3/pyreadline3-3.5.6.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "PySide6",
+    "version": "6.12.0",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": [
+      "PySide6/pyside6-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Addons",
+    "version": "6.12.0",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": [
+      "PySide6_Addons/pyside6_addons-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Essentials",
+    "version": "6.12.0",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": [
+      "PySide6_Essentials/pyside6_essentials-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Pdf",
+    "version": "6.12.0.140",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": [
+      "PySide6_Pdf/pyside6_pdf-6.12.0.140.dist-info/licenses/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_WebEngine",
+    "version": "6.12.0.140",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": [
+      "PySide6_WebEngine/pyside6_webengine-6.12.0.140.dist-info/licenses/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "pywin32",
+    "version": "312",
+    "license": "PSF",
+    "files": [
+      "pywin32/adodbapi/license.txt",
+      "pywin32/pythonwin/License.txt",
+      "pywin32/pythonwin/Scintilla-License.txt",
+      "pywin32/pythonwin/pywin/idle/LICENSE.txt",
+      "pywin32/pywin32-312.dist-info/licenses/adodbapi/license.txt",
+      "pywin32/pywin32-312.dist-info/licenses/com/License.txt",
+      "pywin32/pywin32-312.dist-info/licenses/com/win32comext/mapi/src/MAPIStubLibrary/LICENSE",
+      "pywin32/pywin32-312.dist-info/licenses/pythonwin/License.txt",
+      "pywin32/pywin32-312.dist-info/licenses/pythonwin/Scintilla/License.txt",
+      "pywin32/pywin32-312.dist-info/licenses/pythonwin/pywin/idle/LICENSE.txt",
+      "pywin32/pywin32-312.dist-info/licenses/win32/License.txt",
+      "pywin32/win32/License.txt",
+      "pywin32/win32com/License.txt",
+      "pywin32/win32comext/License.txt",
+      "pywin32/win32comext/mapi/MAPIStubLibrary-License.txt",
+      "pywin32/win32comext/mapi/NOTICE.md"
+    ]
+  },
+  {
+    "name": "reportlab",
+    "version": "4.5.1",
+    "license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+    "files": [
+      "reportlab/reportlab-4.5.1.dist-info/licenses/LICENSE",
+      "reportlab/reportlab/fonts/bitstream-vera-license.txt"
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "82.0.1",
+    "license": "MIT",
+    "files": [
+      "setuptools/setuptools-82.0.1.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+      "setuptools/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+      "setuptools/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+      "setuptools/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+      "setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+      "setuptools/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "setuptools/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+      "setuptools/setuptools/config/NOTICE",
+      "setuptools/setuptools/config/_validate_pyproject/NOTICE"
+    ]
+  },
+  {
+    "name": "shiboken6",
+    "version": "6.12.0",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "files": [
+      "shiboken6/shiboken6-6.12.0.dist-info/licenses/LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "threadpoolctl",
+    "version": "3.6.0",
+    "license": "BSD-3-Clause",
+    "files": [
+      "threadpoolctl/threadpoolctl-3.6.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "files": [
+      "typing_extensions/typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "wheel",
+    "version": "0.47.0",
+    "license": "MIT",
+    "files": [
+      "wheel/wheel-0.47.0.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "Python",
+    "version": "3.12.10",
+    "license": "PSF-2.0 and bundled notices",
+    "files": [
+      "PYTHON_LICENSE.txt"
+    ]
+  }
+]

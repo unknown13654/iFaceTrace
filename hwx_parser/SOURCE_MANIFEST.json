@@ -1,0 +1,239 @@
+[
+  {
+    "file": "export_face_tensors.py",
+    "original_source": "verification/fpv26_hwx_20261002/export_face_tensors.py",
+    "original_sha256": "589fb781b6f2adadc7e35cdad09a1db036aba897d41545e762f8e6b6b66430ec",
+    "published_sha256": "cc1351ad606c70b6116f693fce8ad0bc8c35deba29f735930de5119e2a5a738f",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance",
+      "serialization: fixed ZIP create_system=3"
+    ]
+  },
+  {
+    "file": "inspect_hwx.py",
+    "original_source": "verification/fpv26_hwx_20261002/inspect_hwx.py",
+    "original_sha256": "abc50b2487c3ff0f18c7a99d3a266e4f63429fc100f2efedc382d2066470a3a6",
+    "published_sha256": "4daab8d36c8b580200ee4f62368f646c0c4398156f2c144a9364c29500a11a9b",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "map_graph.py",
+    "original_source": "verification/fpv26_hwx_20261002/map_graph.py",
+    "original_sha256": "796bb21f0f18dd811902135b74284b07a3c95a0326b6785ad98d05f6509f1132",
+    "published_sha256": "15313cec93882b0571a9279dfde2cdf7c355c641a60250e478a3be746df8e969",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "verify_lane_layout.py",
+    "original_source": "verification/hwx_control_20261002/verify_lane_layout.py",
+    "original_sha256": "41f199f90ba4e1814e5436276b0e35ddc4b585eec32a5def720d1f1133efc5a4",
+    "published_sha256": "3b51ad5ba3e91cc6cb1784cb121a9ddf775a6b9fe36f83dda1fd919c1d035456",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "verify_sigmoid_prefix.py",
+    "original_source": "verification/hwx_control_20261002/verify_sigmoid_prefix.py",
+    "original_sha256": "bfb83821f6176a27a0e76752fdc8c8055bafb81e4dfa5c56000c00d4b573404c",
+    "published_sha256": "c66ef38db89c195704c030e8d5be5e6ed751851c2a380204042cfb357aea480f",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "sparse_decode.py",
+    "original_source": "verification/ane_compiler_static_20261002/sparse_decode.py",
+    "original_sha256": "a6c1f0eba3dc36c2556b06fb5ccd5a6277884223824fdd91c98c5fe8191a59e0",
+    "published_sha256": "a6c1f0eba3dc36c2556b06fb5ccd5a6277884223824fdd91c98c5fe8191a59e0",
+    "change_kinds": []
+  },
+  {
+    "file": "freeze_inputs.py",
+    "original_source": "verification/fpv26_replay_20261003/freeze_inputs.py",
+    "original_sha256": "898a32a583009de08dc2c63a8bf10984337b48835f38613bb6ecf4d96b0c218b",
+    "published_sha256": "898a32a583009de08dc2c63a8bf10984337b48835f38613bb6ecf4d96b0c218b",
+    "change_kinds": []
+  },
+  {
+    "file": "recover_dense_controls.py",
+    "original_source": "verification/hwx_control_20261002/recover_dense_controls.py",
+    "original_sha256": "18c4d4b5e7c74bf3674029f08113a6f05ee94b5fcbae9e49d1feba2dc22a5d35",
+    "published_sha256": "7f4cc537f098b48bca7e9feeaba1bb18022352de448c27702ce9a1ecd1320ce6",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "check_control.py",
+    "original_source": "verification/hwx_control_20261002/check_control.py",
+    "original_sha256": "8140a824a70e1bb4602c8ddf8426986d467408f4407e7ba068f095b3dfad5ead",
+    "published_sha256": "9ff4eafc31bb19be6bf464b5f6f425ae0c884fcf161eaca07dd1b0f6dca27880",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "espresso_inference.py",
+    "original_source": "verification/scripts/espresso_inference.py",
+    "original_sha256": "774fe3d583a684c3276e5ca03f24413780702df78cbe6ab8061efe65dd00b5cb",
+    "published_sha256": "c5ca8d56dc0450fa8c6ccc5c1ed9de362a3efbc11840144f76daa10b4f42a25c",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "build_onnx.py",
+    "original_source": "verification/fpv26_host_smoke_20261002/check_graph.py",
+    "original_sha256": "34aff701ef7491d058a1eece5dd9f20423fc0edf4487fa104d5eb99042fa408b",
+    "published_sha256": "b61ba35944286e5aadb032d958cc4d94a9f44665d48a7e657bc8713efdb8065a",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "espresso_converter.py",
+    "original_source": "verification/scripts/espresso_converter.py",
+    "original_sha256": "1c0a26f0a7cf193c016838927fcd2f98cde2a37cdf801f05246786a5db067f69",
+    "published_sha256": "91c4e02e8358420ebc33d370f511b1f850c4fab22784842fa6a437c249b66b34",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit CLI/input/output paths",
+      "English comments/docstrings/diagnostics",
+      "report-path provenance"
+    ]
+  },
+  {
+    "file": "face_mapping.json",
+    "original_sha256": "43e6978adae435103b53c22dcbb9b891cc89647cd641ed8a3ea6e5d9a6bb66e9",
+    "published_sha256": "43e6978adae435103b53c22dcbb9b891cc89647cd641ed8a3ea6e5d9a6bb66e9",
+    "change_kinds": []
+  },
+  {
+    "file": "lane_layout.json",
+    "original_sha256": "4c89b0498493690d25c0cfa671c924438f2c56cbe1b74745e4d3ffa816ec0e4f",
+    "published_sha256": "4c89b0498493690d25c0cfa671c924438f2c56cbe1b74745e4d3ffa816ec0e4f",
+    "change_kinds": []
+  },
+  {
+    "file": "sparse_results.json",
+    "original_sha256": "7a15b4b0e2334b2540ab9899c3d0e34fce43c105d5aa2292ddf0c75ff3d6970b",
+    "published_sha256": "e1e4b57e99d6e5b0bd2ef300a9de8ced90dcbfdda64962a145d20023f759bcea",
+    "change_kinds": [
+      "path-only provenance normalization"
+    ]
+  },
+  {
+    "file": "verify_sigmoid_prefix.json",
+    "original_sha256": "3f439fa4b43a7a7f080904b7d9091195880cdc79d05968819d96c9bcb1ae90a9",
+    "published_sha256": "3f439fa4b43a7a7f080904b7d9091195880cdc79d05968819d96c9bcb1ae90a9",
+    "change_kinds": []
+  },
+  {
+    "file": "verify_sparse.py",
+    "original_source": "verification/ane_compiler_static_20261002/verify_sparse.py",
+    "original_sha256": "8829f3d444f83264f785d7fc7f02435c5c0274bf569f5fda02e882993325687e",
+    "published_sha256": "5e270460214413de6b3d4b0e05d4513a51432d076ebe0e514fcc46dce37d3297",
+    "change_kinds": [
+      "flat sibling imports",
+      "explicit input/output CLI",
+      "data regeneration helper",
+      "serialization: fixed ZIP create_system=3"
+    ]
+  },
+  {
+    "file": "check_controls.py",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "2ebdd3ddb7a051ab3844556b6679975b0fe2883c6a47af87aef0c225d056008d",
+    "change_kinds": [
+      "new CLI validator/documentation/input pins"
+    ]
+  },
+  {
+    "file": "CONTROL_LAYERS.json",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "b793c343423230b8c4f1c7fa7b06363182cb856c10aa56eaf99276ba35285e68",
+    "change_kinds": [
+      "new CLI validator/documentation/input pins"
+    ]
+  },
+  {
+    "file": "INPUTS.json",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "b96be6cbb92cd8444ea1f1a9a40a6a194ba4e8f14ddf5a51e39e7e6998bd285d",
+    "change_kinds": [
+      "new CLI validator/documentation/input pins"
+    ]
+  },
+  {
+    "file": "npz_io.py",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "08e8ad6d2137f0a727bd93f0cb291de95c2f1fc08c2ed71171426485faf579e8",
+    "change_kinds": [
+      "serialization: fixed ZIP create_system=3"
+    ]
+  },
+  {
+    "file": "README.md",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "651297fad8ffae45551ce592efe57ed1e42791709e0526fb8fd309bd88c7f24e",
+    "change_kinds": [
+      "new CLI validator/documentation/input pins",
+      "prose-only number spacing and thousands separators"
+    ]
+  },
+  {
+    "file": "requirements.txt",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "7d7943958bb914f573cf190d8cde9f93ef068a7f074246bf494bdee202471359",
+    "change_kinds": [
+      "new CLI validator/documentation/input pins"
+    ]
+  },
+  {
+    "file": "self_check.py",
+    "original_source": null,
+    "original_sha256": null,
+    "published_sha256": "c16f30c49ca6965e7c1e5a8c57e9e092ea6c9f506cfa7ea7c52d4d26a6f79014",
+    "change_kinds": [
+      "new CLI validator/documentation/input pins"
+    ]
+  }
+]

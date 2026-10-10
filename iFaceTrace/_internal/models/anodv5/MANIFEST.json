@@ -1,0 +1,133 @@
+{
+  "schema": "anodv5-detector-manifest/1",
+  "detector_id": "anodv5-v3",
+  "origin": {
+    "repository": "private research repository",
+    "path": "verification/anodv5_replacement_20261004/port/",
+    "copied_from": "evaluation copy",
+    "research_package": {
+      "file": "ROOT_REVIEW_PACKAGE_V3.json",
+      "sha256": "c7ce975c2733b43947e6933f889c15251ec99c7575dec594fedc72c5ddf0d1d1"
+    },
+    "research_runtime_sha256": {
+      "anodv5_common.py": "4911c1935608c77d555a10c9330f7cefdeedeae43f0bbaead9b896e16d994514",
+      "anodv5_geometry.py": "fa56ff1f6a7786422e77dd8a7d617740462edf4fb90649bf057369d16f65a733",
+      "anodv5_geometry_v2.py": "cbeec2ee164dfa8c5c5f78d0cd1bd48d95f3378c1536e9dc9780f09d9992b578",
+      "anodv5_inference.py": "7aad05a9e93b46d2de10965b3565941e8fc799f27bd256011f90f107c7d0f321",
+      "anodv5_inference_v3.py": "8a99bd43a94ca43a2392898eeec8966e45ff41eea30a49903ade97b519dbf367",
+      "anodv5_runtime.py": "0eda6e107440383485918b9a09abb376099df901fcd416ddbb8c717429d10773",
+      "anodv5_runtime_v3.py": "738e7d86d64ea0a8ae401b00d21c420a93397320d367ec84673b420a2975ebfa"
+    },
+    "espresso_source_sha256": {
+      "net": "08954131af828c5e1a68274e8560434f1b34fde918e5fa619ea6d9497dd56072",
+      "shape": "bf6db9530c6f307be998821873af59196a07b1f6da6780856a39bb50c9bf8fc5",
+      "weights": "9ca371c3d1982305df080cd2b8560f8809ef4737664205da916257d23f483e0a"
+    }
+  },
+  "files": {
+    "anodv5_pre_nms.onnx": {
+      "sha256": "fab2320ad72efefdbbba2cd2d7fddf09dc10fe4a755abdfa590026d7bca517f9",
+      "bytes": 9785233
+    },
+    "DETECTOR_PROFILE_V3.json": {
+      "sha256": "c1ff0bf54f8e6e2df580b4992581f0c3986d9882b41dfe48646ea1bd184a970a",
+      "bytes": 4035
+    }
+  },
+  "onnx": {
+    "file": "anodv5_pre_nms.onnx",
+    "input": {
+      "name": "image",
+      "shape": [
+        1,
+        3,
+        384,
+        608
+      ],
+      "dtype": "float32"
+    },
+    "outputs": [
+      {
+        "name": "detection_expand_dim",
+        "shape": [
+          1,
+          1,
+          3648,
+          4
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "per_box_prob_expand_dim",
+        "shape": [
+          1,
+          1,
+          3648,
+          12
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "fcos/human_pose",
+        "shape": [
+          1,
+          48,
+          76,
+          3
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "fcos/pet_face_scores",
+        "shape": [
+          1,
+          48,
+          76,
+          1
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "fcos/association_preds",
+        "shape": [
+          1,
+          1,
+          3648,
+          2
+        ],
+        "dtype": "float32"
+      }
+    ]
+  },
+  "runtime": {
+    "onnxruntime": "1.24.4",
+    "session": {
+      "intra_op_num_threads": 1,
+      "inter_op_num_threads": 1,
+      "graph_optimization_level": "default (ORT_ENABLE_ALL)",
+      "providers": [
+        "CPUExecutionProvider"
+      ]
+    }
+  },
+  "runtime_sha256": {
+    "__init__.py": "603e97195d2d286da0f9b21bdba3caaa6ce75c74cdf6ad89205610a14177aaa4",
+    "detector.py": "1858d2feb0a8751ecae4ab4aca4869c168379fd3d0366a9d7f3bd41c01043c2f",
+    "geometry.py": "1fb3304e7e02e8699b54257ff3c459b0c2a0c8347d42d194542d3dfd73153db2",
+    "nms.py": "796e37bfc6c8e8f553c7ae50c14286bfec3b28128197644c9df818c918cd7677"
+  },
+  "limitations": [
+    "native_arithmetic_not_measured",
+    "native_sort_ties_unknown",
+    "weight_physical_order_inferred",
+    "PIL_resampling_pixel_parity_not_measured",
+    "accelerated_H18_input_tensor_not_measured",
+    "face_body_and_pet_semantics_not_reproduced",
+    "wrapper_model_cross_corpus_identity_not_runtime_measured",
+    "reduce_mode9_and_axis1_to_mask4_not_established",
+    "first_VN_crop_pixel_backend_not_measured",
+    "non_full_ROI_not_supported",
+    "Host port built from static analysis. It is not a claim that the whole Apple pipeline is identical or that native bit parity was reached.",
+    "The research measurement of this port is not a product acceptance result."
+  ]
+}

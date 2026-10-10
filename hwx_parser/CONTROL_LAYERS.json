@@ -1,0 +1,1334 @@
+[
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv2_stud/convolution",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv3_stud/convolution",
+    "weight_values": 18432,
+    "bias_values": 64,
+    "tile": 4,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv4_stud/convolution",
+    "weight_values": 36864,
+    "bias_values": 64,
+    "tile": 4,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv5_stud/convolution",
+    "weight_values": 36864,
+    "bias_values": 64,
+    "tile": 4,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv6_stud/convolution",
+    "weight_values": 36864,
+    "bias_values": 64,
+    "tile": 4,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv5/conv5_1/convolution",
+    "weight_values": 73728,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/krisstudent_extractor/conv5/conv5_2/convolution",
+    "weight_values": 147456,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/conv6/convolution",
+    "weight_values": 73728,
+    "bias_values": 64,
+    "tile": 4,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/conv7/convolution",
+    "weight_values": 8192,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/block8/conv1x1/Conv2D",
+    "weight_values": 4096,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/block9/conv1x1/Conv2D",
+    "weight_values": 2048,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_3",
+    "weight_values": 1152,
+    "bias_values": 4,
+    "tile": 1,
+    "lanes": 4,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/block10/conv1x1/Conv2D",
+    "weight_values": 1024,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/block10/conv3x3/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_4",
+    "weight_values": 1152,
+    "bias_values": 4,
+    "tile": 1,
+    "lanes": 4,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/block11/conv1x1/Conv2D",
+    "weight_values": 1024,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "ShotKrisNetPruning/ShotKrisNetPruning/ssd_features/block11/conv3x3/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_5",
+    "weight_values": 576,
+    "bias_values": 2,
+    "tile": 1,
+    "lanes": 2,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_roll_5",
+    "weight_values": 3456,
+    "bias_values": 12,
+    "tile": 1,
+    "lanes": 12,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_yaw_3",
+    "weight_values": 2880,
+    "bias_values": 10,
+    "tile": 1,
+    "lanes": 10,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_yaw_4",
+    "weight_values": 2880,
+    "bias_values": 10,
+    "tile": 1,
+    "lanes": 10,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "logits_yaw_5",
+    "weight_values": 1440,
+    "bias_values": 5,
+    "tile": 1,
+    "lanes": 5,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "offsets_3",
+    "weight_values": 2304,
+    "bias_values": 8,
+    "tile": 1,
+    "lanes": 8,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "offsets_4",
+    "weight_values": 2304,
+    "bias_values": 8,
+    "tile": 1,
+    "lanes": 8,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "6ziz6uinva_opt.H18.espresso.hwx",
+    "layer": "offsets_5",
+    "weight_values": 1152,
+    "bias_values": 4,
+    "tile": 1,
+    "lanes": 4,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_21",
+    "weight_values": 3600,
+    "bias_values": 144,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_33",
+    "weight_values": 36864,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_38",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_41",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_43",
+    "weight_values": 3200,
+    "bias_values": 128,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_44",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_47",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_50",
+    "weight_values": 6400,
+    "bias_values": 256,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_52",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_56",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_58",
+    "weight_values": 3200,
+    "bias_values": 128,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_59",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_62",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_65",
+    "weight_values": 6400,
+    "bias_values": 256,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_67",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_71",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_73",
+    "weight_values": 3200,
+    "bias_values": 128,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_74",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_77",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_80",
+    "weight_values": 6400,
+    "bias_values": 256,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_82",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_86",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_88",
+    "weight_values": 3200,
+    "bias_values": 128,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_89",
+    "weight_values": 16384,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_92",
+    "weight_values": 131072,
+    "bias_values": 512,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_97",
+    "weight_values": 262144,
+    "bias_values": 512,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_100",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_102",
+    "weight_values": 6400,
+    "bias_values": 256,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_103",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_106",
+    "weight_values": 262144,
+    "bias_values": 512,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_109",
+    "weight_values": 12800,
+    "bias_values": 512,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_111",
+    "weight_values": 262144,
+    "bias_values": 512,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_115",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_117",
+    "weight_values": 6400,
+    "bias_values": 256,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_118",
+    "weight_values": 65536,
+    "bias_values": 256,
+    "tile": 16,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_121",
+    "weight_values": 65536,
+    "bias_values": 0,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_123",
+    "weight_values": 32768,
+    "bias_values": 0,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_126",
+    "weight_values": 18432,
+    "bias_values": 0,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_128",
+    "weight_values": 1152,
+    "bias_values": 0,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_130",
+    "weight_values": 147456,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_133",
+    "weight_values": 147456,
+    "bias_values": 128,
+    "tile": 8,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "anodv4_drop6_fp16.H18.espresso.hwx",
+    "layer": "Conv_142",
+    "weight_values": 4608,
+    "bias_values": 4,
+    "tile": 1,
+    "lanes": 4,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_1/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_1/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_2/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_2/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_3/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_3/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_4/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_4/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_5/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_5/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_6/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_6/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_7/Conv/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block/res_layer_7/Conv_1/Conv2D",
+    "weight_values": 9216,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block_1/res_layer_1/Conv_1/Conv2D",
+    "weight_values": 2304,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block_1/res_layer_2/Conv_1/Conv2D",
+    "weight_values": 2304,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block_1/res_layer_3/Conv_1/Conv2D",
+    "weight_values": 2304,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block_2/res_layer_1/Conv_1/Conv2D",
+    "weight_values": 2304,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "learned-matting-1512x2016.H18.espresso.hwx",
+    "layer": "train/res_net/block_2/res_layer_2/Conv_1/Conv2D",
+    "weight_values": 2304,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_6/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_7/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_8/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_9/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_10/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_11/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_12/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_13/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_14/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_15/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_16/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_17/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_20/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_21/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_22/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_23/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_24/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_25/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_26/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_27/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_28/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_29/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_30/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_31/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_32/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_33/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_34/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_35/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx",
+    "layer": "bbox",
+    "weight_values": 720,
+    "bias_values": 5,
+    "tile": 1,
+    "lanes": 5,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_6/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_7/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_8/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_9/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_10/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_11/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_12/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_13/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_14/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_15/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_16/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_17/Conv2D",
+    "weight_values": 768,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_20/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_21/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_22/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_23/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_24/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_25/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_26/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_27/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_28/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_29/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_30/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_31/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_32/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_33/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_34/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox_head/bbox_head/Conv_35/Conv2D",
+    "weight_values": 3072,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx",
+    "layer": "bbox",
+    "weight_values": 2160,
+    "bias_values": 15,
+    "tile": 1,
+    "lanes": 15,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "solo_landmarks_s9min6ugm8_opt.H18.espresso.hwx",
+    "layer": "KrisLandmarksNet/krisstudent_extractor/conv1_stud/Conv2D",
+    "weight_values": 864,
+    "bias_values": 32,
+    "tile": 2,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  },
+  {
+    "model": "solo_landmarks_s9min6ugm8_opt.H18.espresso.hwx",
+    "layer": "KrisLandmarksNet/ssd_features/block9/conv1x1/Conv2D",
+    "weight_values": 1024,
+    "bias_values": 16,
+    "tile": 1,
+    "lanes": 16,
+    "source_comparison": "whole effective FP16 tensor bytes"
+  }
+]

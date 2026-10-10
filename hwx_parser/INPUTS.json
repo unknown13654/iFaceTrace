@@ -1,0 +1,110 @@
+{
+  "restore": {
+    "net": {
+      "filename": "facerec_fp4.0_fa1.4_md2_2_fp16.espresso.net",
+      "sha256": "efe558270f01bde6fbbb92803af078f7e6bbe6d09851af950ab29cd2f6ffcbaf"
+    },
+    "shape": {
+      "filename": "facerec_fp4.0_fa1.4_md2_2_fp16.espresso.shape",
+      "sha256": "f9829c40a28d59f19693a55bee86d0e290537469825182ad75c5de1d1af9cd01"
+    },
+    "hwx": {
+      "filename": "facerec_fp4.0_fa1.4_md2_2_fp16_dev_op.H18.espresso.hwx",
+      "sha256": "84d98755394a3c2167f68293541e60dccee0bc38ae47b90720563c8a6bb505da"
+    },
+    "compiler": {
+      "filename": "ANECompiler",
+      "sha256": "5b4dc5f332d16b454171e82a989f169585a170b190fd178c9956ed31f22c20d4"
+    },
+    "mapping": {
+      "filename": "face_mapping.json",
+      "sha256": "43e6978adae435103b53c22dcbb9b891cc89647cd641ed8a3ea6e5d9a6bb66e9"
+    },
+    "lane-layout": {
+      "filename": "lane_layout.json",
+      "sha256": "4c89b0498493690d25c0cfa671c924438f2c56cbe1b74745e4d3ffa816ec0e4f"
+    },
+    "sparse-results": {
+      "filename": "sparse_results.json",
+      "sha256": "e1e4b57e99d6e5b0bd2ef300a9de8ced90dcbfdda64962a145d20023f759bcea"
+    },
+    "sigmoid-prefix": {
+      "filename": "verify_sigmoid_prefix.json",
+      "sha256": "3f439fa4b43a7a7f080904b7d9091195880cdc79d05968819d96c9bcb1ae90a9"
+    }
+  },
+  "controls": {
+    "6ziz6uinva_opt.espresso.net": {
+      "sha256": "f2e2e617da9f085cdfa2f7be4fff2881c24669bcba1c7ce572ae78580d51377b",
+      "bytes": 34708
+    },
+    "6ziz6uinva_opt.espresso.weights": {
+      "sha256": "65d3ea140a034be8c6fd129eb2b5fca974f3b410ac0507de8c1b0a093858b828",
+      "bytes": 1275328
+    },
+    "6ziz6uinva_opt.H18.espresso.hwx": {
+      "sha256": "9a133a38d37926608c31c9edf0587b555f0fec5c7998c6513f00198b85e471c9",
+      "bytes": 1540096
+    },
+    "anodv4_drop6_fp16.espresso.net": {
+      "sha256": "51abd1bc7b3c3a3beb7b5a81477fb88381712950797b2c4dd193c6152c847e96",
+      "bytes": 62415
+    },
+    "anodv4_drop6_fp16.espresso.weights": {
+      "sha256": "0f5b0ba6cf4f7b2d4f5f511f16eb7e4dab76f8d62b0f9a647717b88ddf9cfbf2",
+      "bytes": 4920128
+    },
+    "anodv4_drop6_fp16.H18.espresso.hwx": {
+      "sha256": "8a4ea56eee6c21a829e67848456110e1ffc4249452d45787f87ef28f1cd6d838",
+      "bytes": 5357568
+    },
+    "learned-matting-1512x2016.espresso.net": {
+      "sha256": "583facbe73b55f8e003a19374ffc636d51e0576db0e0485686effda6e60faee6",
+      "bytes": 69853
+    },
+    "learned-matting-1512x2016.espresso.weights": {
+      "sha256": "7ba174e871b25c901a84c1b79abcca246a8cd4f118cc33d8d3e323471f5d642a",
+      "bytes": 392812
+    },
+    "learned-matting-1512x2016.H18.espresso.hwx": {
+      "sha256": "641624cfce2019e04ad5875f56231974d74425f15f906c2488566c542605a117",
+      "bytes": 786432
+    },
+    "saliency_attention_box_head_i4fgq3rswb_fp16.espresso.net": {
+      "sha256": "d2c9b7f61ae7cbd3e58c57a26888c1d21d94533d8b1d6d5d74590ee5f8b40f6c",
+      "bytes": 31386
+    },
+    "saliency_attention_box_head_i4fgq3rswb_fp16.espresso.weights": {
+      "sha256": "071232e0505c2e28a2ad2450b2fab72ae63c21c6a0da0e808119d4aea8f2c8af",
+      "bytes": 156704
+    },
+    "saliency_attention_box_head_i4fgq3rswb_fp16.H18.espresso.hwx": {
+      "sha256": "06dc6fe839a4765ba52be83dd3b5e3f13a4052c79ee3cdeb7c237ff3074aeb71",
+      "bytes": 311296
+    },
+    "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.espresso.net": {
+      "sha256": "9b3a0e16329f9fc1b82e6ed4fcf9637fae7673ddca8df48955bc43e52fdcc4ea",
+      "bytes": 31342
+    },
+    "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.espresso.weights": {
+      "sha256": "e3c31df7e1c71aabd08a96d5826bd55a7585a621e76adad14eb1ca597373ae75",
+      "bytes": 159584
+    },
+    "saliency_objectness_boxes_head_ecvqeduzc7_46800_fp16.H18.espresso.hwx": {
+      "sha256": "84ae9eacae20210da2d6977a0c10ebed70d17f38bf0f99fa23735132785c8e72",
+      "bytes": 311296
+    },
+    "solo_landmarks_s9min6ugm8_opt.espresso.net": {
+      "sha256": "28eec7ba33864fe49644c30d60b96498e8fb5cc183eb94bdbd4d4c2ffdbc4050",
+      "bytes": 14213
+    },
+    "solo_landmarks_s9min6ugm8_opt.espresso.weights": {
+      "sha256": "c3d20b2449603da3c924935eb018ec6d623c6d86e4089cc7ae1417d3ff0bb58e",
+      "bytes": 748080
+    },
+    "solo_landmarks_s9min6ugm8_opt.H18.espresso.hwx": {
+      "sha256": "0ec1e1e00799ea682187f654164f505cf2f5ae75ace456df64ad43a3f6ed373b",
+      "bytes": 1572864
+    }
+  }
+}

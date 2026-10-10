@@ -1,0 +1,29 @@
+[
+  {
+    "file": "NLOHMANN_JSON_LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/nlohmann/json/v3.11.3/LICENSE.MIT",
+    "sha256": "86b998c792894ccb911a1cb7994f7a9652894e7a094c0b5e45be2f553f45cf14"
+  },
+  {
+    "file": "LGPL3.txt",
+    "source": "https://www.gnu.org/licenses/lgpl-3.0.txt",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+  },
+  {
+    "file": "GPL3.txt",
+    "source": "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "file": "GCC_RUNTIME_EXCEPTION.txt",
+    "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-15.2.0/COPYING.RUNTIME",
+    "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+  },
+  {
+    "file": "MICROSOFT_VISUAL_CPP_RUNTIME_ORIGINAL_EN.rtf",
+    "source": "Microsoft Visual C++ 2015-2022 Redistributable x64 14.44.35112; Burn manifest license.rtf / u4",
+    "sha256": "8099dc3cf9502c335da829e5c755948a12e3e6de490eb492a99deb673d883d8b",
+    "bytes": 9235,
+    "supplier_sha1": "1EFE2FB2D014A731B752672745F9FFECDD716412"
+  }
+]

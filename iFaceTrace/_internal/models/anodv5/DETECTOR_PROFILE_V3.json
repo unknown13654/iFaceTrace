@@ -1,0 +1,74 @@
+{
+  "profile_id": "ANODv5_PORTABLE_CONDITIONAL_CPU_BGR_FP32_HOST_BILINEAR_V3",
+  "pipeline_version": 3,
+  "source_scope": {
+    "model": "iPhone18,5_iOS26.6.1_23G83_portable_Espresso_copy",
+    "wrapper": "iPhone12,1_iOS26.6.1_23G83_Vision_static_copy",
+    "Espresso": "iPhone12,1_iOS26.6.1_23G83_conditional_FP32_k3_CPU_fallback",
+    "native_execution": false
+  },
+  "preprocessing": {
+    "channel_order": "BGR",
+    "scale": 0.01742919348180294,
+    "mean": [-103.52999877929688, -116.27999877929688, -123.67500305175781],
+    "resize_policy": "HOST_PIL_BILINEAR_NO_PIXEL_CALIBRATION",
+    "rotation_policy": "HOST_NUMPY_ROT90_CCW_1_FROM_ROTATION_ARGUMENT_1",
+    "normalization": "FP32_PIXEL_TIMES_SCALE_THEN_PLUS_FP32_MEAN_TIMES_SCALE",
+    "input_size": [608, 384],
+    "first_crop_scope": "FULL_RGB_ROI",
+    "first_crop_geometry": "FP64_FRINTA_SHRINK_ONLY_IF_BOTH_DIMENSIONS_SMALLER",
+    "first_crop_pixels": "FIXED_HOST_PIL_BILINEAR_NATIVE_VN_BACKEND_NOT_MEASURED",
+    "padding": "BLACK_TOP_LEFT_ROW_COPY"
+  },
+  "graph_nms": {
+    "iou_threshold": 0.5,
+    "score_threshold": 0.0,
+    "union_epsilon": 1e-7,
+    "num_boxes_pre_nms": 300,
+    "max_boxes": 50,
+    "per_class_suppression": true,
+    "tie_policy": "HOST_STABLE_DESCENDING_SCORE_THEN_INPUT_INDEX_FIRST_ARGMAX"
+  },
+  "wrapper": {
+    "confidence_floor": 0.3,
+    "class_names": ["HumanFace", "HumanHead", "HumanBody", "CatBody", "DogBody", "Other", "Food", "Drink", "CatHead", "DogHead", "SportsBall", "FullBody"],
+    "class_thresholds": [0.5680000185966492, 0.492000013589859, 0.5979999899864197, 0.5590000152587891, 0.5709999799728394, 1.0, 0.5649999976158142, 0.5320000052452087, 0.6000000238418579, 0.6320000290870667, 0.6150000095367432, 0.5429999828338623],
+    "class_threshold_fp32_le_hex": ["7368113f", "6de7fb3e", "8716193f", "a01a0f3f", "0e2d123f", "0000803f", "d7a3103f", "2731083f", "9a99193f", "c1ca213f", "a4701d3f", "0c020b3f"],
+    "corner_normalization": "FOUR_FP32_DIVISIONS_THEN_FP64_EXTENT_CENTER_AND_Y_FLIP",
+    "intersection_over_min_area_threshold": 0.3,
+    "IOM_arithmetic": "NATIVE_ASYMMETRIC_FP64_END_AND_AREA_FP32_INTERSECTION_AND_DIVISION",
+    "square_dimensions": "FIRST_VN_CROP_BUFFER",
+    "square_side": "PIXEL_WIDTH_AND_HEIGHT_MEAN_CENTER_FIXED_FP32_FMA",
+    "source_ROI_map": "PIXEL_DETECTION_BRIDGE_FP32_SCALE_FP64_MAP_FULL_ROI_ONLY",
+    "unit_rect_gate": "NATIVE_CGRECT_INTERSECTS_RECT_STRICT",
+    "box_clipping": "NONE",
+    "export_class_index": 0,
+    "merge_head_effect_on_HumanFace_coordinates": "UNCHANGED_STATIC_PROOF",
+    "pet_and_face_body_group_semantics": "NOT_REPRODUCED"
+  },
+  "evidence": {
+    "Vision_sha256": "8d145f8b5e07b0b0b981316f248f35978b3b1d9bae143ee5d083e7f7d40e8527",
+    "Espresso_sha256": "6f8392c4ffefcd083522f1e411d8534da8fa4daa029ffce67e25da9a720c41cd",
+    "graph_NMS": ["0x1950f98d0", "0x19525d9ac", "0x1947f37e8", "0x1951de870", "0x1951e0088", "0x195468ae0"],
+    "conditional_BGR_affine": ["0x194dfa774", "0x194e75a88", "0x194e75c28", "0x194e75d1c", "0x194e75e58"],
+    "Vision_corner_div": ["0x1a79d29d0", "0x1a79d29d8", "0x1a79d29e0", "0x1a79d29e8"],
+    "first_VN_crop": ["0x1a78577f0", "0x1a79a0658", "0x1a79a0768", "0x1a7855f14"],
+    "IOM_mixed_arithmetic": ["0x1a798d220", "0x1a798d278", "0x1a798d2a0", "0x1a798d2c8", "0x1a798d2dc"],
+    "source_ROI_and_gate": ["0x1a79a00e0", "0x1a79a0120", "0x1a79a0164", "0x1842df728", "0x1a79a022c"],
+    "reduce_mode9_meaning": "NOT_ESTABLISHED_NATIVE; HOST_EXPLICIT_MAX",
+    "reduce_axis1_to_mask4": "NOT_ESTABLISHED_NATIVE; HOST_EXPLICIT_LAST_AXIS"
+  },
+  "limits": [
+    "native_arithmetic_not_measured",
+    "native_sort_ties_unknown",
+    "weight_physical_order_inferred",
+    "PIL_resampling_pixel_parity_not_measured",
+    "accelerated_H18_input_tensor_not_measured",
+    "face_body_and_pet_semantics_not_reproduced",
+    "wrapper_model_cross_corpus_identity_not_runtime_measured",
+    "reduce_mode9_and_axis1_to_mask4_not_established",
+    "first_VN_crop_pixel_backend_not_measured",
+    "non_full_ROI_not_supported"
+  ]
+}
+

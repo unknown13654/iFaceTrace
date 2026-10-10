@@ -1,0 +1,78 @@
+{
+  "profile_id": "anod3-bilinear-owned97-outer107-inner129-fresh-winner-nms-vdsp-order-v2",
+  "tool_profile": "ifacetrace-anod3-directbgra-v1",
+  "detector_preprocessing": "anod3_rgb_pil_bilinear_widened_v1",
+  "recognition_preprocessing": "original RGB; fp32 1.765 per-axis expansion; CGRectIntegral; partial placement with PIL LANCZOS into BGRA0; valid alpha 255; skip-transpose",
+  "nms_state_policy": "fresh_zero_seed_per_image; actual device kernel reuse unmeasured",
+  "frozen_source_manifest_sha256": "1b32b8598b2bf5ad4ca3b1867f5579c67f386926c20b3b4296bf318472fa5c18",
+  "artifact_sha256": {
+    "anod3_net": "711c88e847323057f0e3966d6cabf66799035a843e7cab251e5b34be7790a9d5",
+    "anod3_weights": "c945bb3badff18813352219660124c059af16fe4475d69c77a53f97bad1477c8",
+    "facerec_net": "360f70167afafef03619748e50f387e9a4c9308fed27044463e9653d1231b506",
+    "facerec_weights": "0fd5a1b7182d33c797029b4cb902f16b4f73caad104c70d36df9548ff384bad9",
+    "anchors": "485fae5fb1800b16581c0be1b82b7623413dac5495873207251dd1fab4475a33"
+  },
+  "runtime_sha256": {
+    "../anod3_producer.py": "f299facd90b11da27f1df55e370b2e20914d12fa5fe1fbb31bb11bcf5f9a06d9",
+    "__init__.py": "f20854e4e2112647385d616698b98397a66384eb7668ace5a182b6442d55d754",
+    "anod3_inference.py": "96690f7529e5dbbedad6f378c794825c905573ff59a9ad1369c7f8420230a266",
+    "detector_preprocess.py": "7a8b29a3f9741a827f7e011a33b4ed4cfeae3dc2bb88624f711909060d84aaf9",
+    "engine.py": "0c3016bdccd01715c69d06daacd1a8e21d63cef66bc04358cf3c3bda384e4611",
+    "espresso_inference.py": "ba32185ec95efd8cd83a8dc4e6fe608ad96348667f05a6382286e0c4e45e7d5b",
+    "face_postprocess.py": "48cc046edaa8a672d5f6bd689dd7d8fb71de6b47e7cab734aa6603cb658a0840"
+  },
+  "faceprint_cli_sha256": [
+    "7bd3e5bd73fde0e2ece926a48a353e3b55c28e71d71dbe0c815991fd06259b40"
+  ],
+  "faceprint_dll_sha256": {
+    "heif.dll": "f744e4043f8771e360ce512892f67a9f90cecfaf7796ae9346c58a29afb883ee",
+    "libde265.dll": "91f6b275fbf966913681b814d954b1a8619724e93b72e07620f8fd75ab8d673f"
+  },
+  "nms_order": {
+    "change": "run_nms: stable descending argsort -> literal finite-float vDSP_vsorti descending heap order (left child on equal siblings, equal child moves down); applies to nms_boxes_nms and rcnn_output_nms through the common run_nms",
+    "parent_engine_sha256": "b0937a1d03eca78babd759c34e2f91a2d58d390d25b28a18517d2359479cf6da",
+    "sort_reference_sha256": "1274aa939c4ab5a9d3a5d0139e95a5cd714ee031981d51f1b7093edb310c1d09",
+    "candidate_source_sha256": "083869ade3f3244cf974990fbfc91e9dcb8e01587136fc5a10b5e6073199b274",
+    "run_nms_source_sha256": "ed2b42b56f2d8028ce1f995cd72d732ab7001f597759c6a3fe94911b48a2eddb",
+    "evaluation": "verification/fpv11_gap_20261003/final_evaluation_20261004_frozen (Windows, 9,450 inputs, NMS_only vs original_sort)",
+    "evaluation_results_sha256": "2fbfb407ccd3d13ed0120f5bcae1990d43f0552c5eaa069ebbed830e2a012fcd",
+    "native_evidence": "two captured vDSP sort calls (1,696 and 200 scores) returned exactly this order; final NMS selections and whole-pipeline equivalence are not claimed",
+    "excluded": [
+      "first-convolution FP32 bias preservation",
+      "CPU intermediate FP32 preservation",
+      "parameter fitting"
+    ]
+  },
+  "limits": [
+    "host approximation; native bit parity unclaimed",
+    "fresh NMS cache state; native reuse unmeasured",
+    "runtime package hashes must match",
+    "NMS candidate order: two captured native sort permutations matched; final NMS selections and whole-pipeline equivalence unverified",
+    "fp3.1 CLI output bytes depend on the CPU core type on hybrid CPUs (<= 4.0e-7 in cosine); FPV11 vectors are not byte-reproducible across runs unless pinned",
+    "orientation-normalized RGB host candidate; geometry from archived iOS16 static analysis; with FPV15 it is a host configuration, not evidence of the iOS 26 crop or resampling"
+  ],
+  "recognition_crop": {
+    "id": "partial-placement-ios16-static-host-v1",
+    "change": "clipped full-frame resize -> resize overlapping source pixels into their corresponding 128x128 region; remaining BGRA bytes zero; valid alpha 255",
+    "parent_producer_sha256": "dec695cdeb1a93cff34d09be933044ccee00c26a5e68892c076008d15e9e3325",
+    "candidate_source_sha256": {
+      "crop.py": "24a4a6114321629918b21d550b0c3fc94565025166a2542bbed7cce7a1d962b3",
+      "candidate_geometry.py": "baaac6733cf8f91a1e129d0b70c7840e3a9fb10abff6e12f81da8629fb4b3923"
+    },
+    "evaluation": "partial_crop_replay_20261007 (Windows, 9,450 photographs + 359 queries, frozen detector boxes)",
+    "evaluation_results_sha256": {
+      "results9450.json": "6ca970e10b5499ce710e17cbb468959e0012a6680b4c6e3df809fecd68f2ab64",
+      "summary.json": "57dc148cd8514e6399ecc7df5245e3e52e63a751c844ec57c85b3124dbe9dfe4",
+      "root_check.json": "ed5b038d78851bff3bd7b75f0ea5c3a3b0e5655fb0113bb1d4218a1588e0b374"
+    },
+    "scope": "orientation-normalized RGB host candidate; geometry from archived iOS16 static analysis; with FPV15 it is a host configuration, not evidence of the iOS 26 crop or resampling"
+  },
+  "localization": {
+    "change": "comments/docstrings/messages translated to English; code tokens unchanged",
+    "parent_espresso_source_sha256": "774fe3d583a684c3276e5ca03f24413780702df78cbe6ab8061efe65dd00b5cb"
+  },
+  "portable_dry_run": {
+    "change": "one path literal in the standalone dry-run helper; no other token changed",
+    "parent_anod3_source_sha256": "ce3d569ac0c52c0c268aca8f75032a681f0ccf38f8e2abc9d0bfaac6427e23c0"
+  }
+}

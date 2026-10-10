@@ -1,0 +1,59 @@
+# iFaceTrace third-party notices
+
+This file identifies the direct dependencies pinned in `requirements.txt` and the native components used by iFaceTrace. The license files shipped with each installed package remain authoritative for that distribution, including bundled libraries, fonts, and notices. Installing a Python package does not change its license.
+
+## Python runtime dependencies
+
+Versions and license descriptions below were read from the tested Windows Python 3.12 package metadata and license files. They are not a complete inventory of transitive packages installed by pip.
+
+| Component | Version | License / notice | Purpose |
+|---|---|---|---|
+| PySide6 / shiboken6 | 6.12.0 | LGPL-3.0 / Qt dual-license notices; retain original notices for the modules shipped | GUI |
+| pymobiledevice3 | 9.38.1 | GPL-3.0-or-later | Windows device/AFC access |
+| pi-heif | 1.3.0 | Python project: BSD-3-Clause; decode-only wheel libraries below | HEIF/HEIC decoding |
+| ONNX Runtime | 1.24.4 | MIT; retain its third-party notices | Host detector and recognition inference |
+| NumPy | 2.4.6 | BSD-3-Clause; installed metadata also lists 0BSD, MIT, Zlib, and CC0-1.0 for included code | Arrays and numerical computation |
+| Pillow | 12.2.0 | MIT-CMU; retain bundled-library notices | Image loading and host resampling |
+| PyCryptodome | 3.23.0 | BSD and public-domain portions; see `LICENSE.rst` | Backup cryptography |
+| cryptography | 50.0.1 | Apache-2.0 OR BSD-3-Clause; retain bundled-library notices | Backup cryptography backend |
+| threadpoolctl | 3.6.0 | BSD-3-Clause | Numerical thread control |
+| ReportLab | 4.5.1 | BSD-style three-clause license; fonts have separate notices | PDF reports |
+
+The Qt and shiboken6 libraries delivered with PySide6 have their own license files. Retain those files when distributing a bundle. ReportLab's included Bitstream Vera fonts have separate notices. DarkGarden font files are not bundled; their two copying notices are omitted under the approved distribution scope. NumPy wheels can include numerical libraries and compiler runtimes with further notices in `numpy-*.dist-info/licenses/`.
+
+The selected Qt GUI libraries are shipped as separate DLLs under the LGPL option. Their DLLs can be replaced. Obtain the matching sources from https://download.qt.io/official_releases/QtForPython/ and https://download.qt.io/official_releases/qt/. Retain the complete original license texts in the bundle's licenses folder.
+
+The GUI-only release excludes the unused Qt Virtual Keyboard DLL and input-method plugin, whose open-source option is GPL-3.0. The internal build may retain it. Qt PDF and Qt Image Formats have an LGPL-3.0 option; package-wide PySide6 license metadata alone does not describe every Qt module. Component licensing is documented at https://doc.qt.io/qt-6/qtvirtualkeyboard-index.html, https://doc.qt.io/qt-6/qtpdf-index.html and https://doc.qt.io/qt-6/qtimageformats-index.html.
+
+### pi-heif binary wheels
+
+The Windows pi-heif 1.3.0 decode-only wheel uses libheif 1.21.2 and libde265 1.0.16. It has no x265 encoder. Retain the wrapper license and the wheel's original bundled-library notices.
+
+| Bundled library | License |
+|---|---|
+| libheif | LGPL-3.0 |
+| libde265 | LGPL-3.0 |
+
+The Python wrapper's BSD-3-Clause license is not the license of every binary library in its wheel. The decoder code is in a separate replaceable libheif DLL. Obtain its sources from https://github.com/strukturag/libheif and https://github.com/strukturag/libde265 (the versions above). Preserve both `LICENSE.txt` and `LICENSES_bundled.txt` and the original LGPL texts when packaging it.
+
+The Windows wheel also has MinGW-w64 runtime DLLs: libgcc_s and libstdc++ use GPL-3.0 with the GCC Runtime Library Exception; libwinpthread has its upstream permissive notices. These are separate from the LGPL decoder libraries. Retain the original GPL text and exception text. Their sources are available from https://gcc.gnu.org/ and https://www.mingw-w64.org/.
+
+PyInstaller's embedded bootloader uses GPL-2.0-or-later with its Bootloader Exception; its run-time hooks use Apache-2.0. The original COPYING notice, including the exception, is retained. This inventory records exception-bearing licenses explicitly; they are not described as license-free components.
+
+The release policy permits the PyInstaller Bootloader Exception, the GCC Runtime Library Exception and the Microsoft redistributable runtime. Their original notices remain in the bundle. `MICROSOFT_VISUAL_CPP_RUNTIME_ORIGINAL_EN.rtf` preserves the English runtime terms extracted unchanged from the supplier's Visual C++ 2015-2022 redistributable, with its size and hash bound to the supplier manifest. This end-user text is distinct from the Build Tools compiler license; the release decision does not assert that every bundled runtime file shares the extraction package's version.
+
+## Native executable
+
+`bin/faceprint_cli.exe` is the recognition helper for stored FPV11 data. It is built with MSVC 14.44, `/O2 /arch:AVX2` and a static application runtime, using Eigen 3.4.0 (MPL-2.0; `EIGEN_MPL2_ONLY`) and nlohmann/json 3.11.3 (MIT). Its separate replaceable `heif.dll` (libheif 1.22.2, LGPL-3.0) and `libde265.dll` (1.1.0, LGPL-3.0) provide HEIF decoding without x265 or other HEVC encoders. The executable imports `heif.dll` and `KERNEL32.dll`; the decoder DLLs also use the separately bundled Microsoft Visual C++ runtime. Matching decoder sources are available from https://github.com/strukturag/libheif/tree/v1.22.2 and https://github.com/strukturag/libde265/tree/v1.1.0. Keep their original license texts. See `build/native/README.md` for the tested build and its output hashes.
+
+`src/core/libcxx_sort.py` preserves the LLVM notice and `Apache-2.0 WITH LLVM-exception` identifier for the mechanically translated libc++ sorting code. Keep that notice with the file.
+
+## Model artifacts
+
+Model files under `models/` are derived from iOS system files; they remain the property of their owner and are included for research reproducibility. The model manifests retain artifact hashes, relative provenance paths, runtime settings, and numerical limits. Inclusion does not relicense these model files.
+
+Apple, iOS, and other product names identify the artifacts and interfaces under study. Their appearance does not imply endorsement, affiliation, or a license grant from their owners.
+
+## Distribution scope
+
+Preserve third-party copyright and license notices when redistributing their components. This inventory does not claim that the included model files, native executable, optional codecs, or every transitive wheel share one license. The executable bundle contains original license files and a package inventory under `_internal/licenses/`.

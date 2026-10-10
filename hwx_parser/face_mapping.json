@@ -1,0 +1,883 @@
+{
+  "status": "sat",
+  "assumption": "one task per weighted layer; graph precedence preserved",
+  "face_weight_layers": 175,
+  "alternate_face_assignment": "unsat",
+  "face_mapping": [
+    {
+      "layer": "Conv_0",
+      "task_position": 0,
+      "tid": 0
+    },
+    {
+      "layer": "Conv_2",
+      "task_position": 1,
+      "tid": 1
+    },
+    {
+      "layer": "Conv_4",
+      "task_position": 2,
+      "tid": 2
+    },
+    {
+      "layer": "Conv_6",
+      "task_position": 3,
+      "tid": 3
+    },
+    {
+      "layer": "Conv_9",
+      "task_position": 4,
+      "tid": 5
+    },
+    {
+      "layer": "Conv_11",
+      "task_position": 5,
+      "tid": 6
+    },
+    {
+      "layer": "Conv_14",
+      "task_position": 6,
+      "tid": 9
+    },
+    {
+      "layer": "Conv_15",
+      "task_position": 7,
+      "tid": 10
+    },
+    {
+      "layer": "Conv_17",
+      "task_position": 8,
+      "tid": 11
+    },
+    {
+      "layer": "Conv_20",
+      "task_position": 9,
+      "tid": 13
+    },
+    {
+      "layer": "Conv_22",
+      "task_position": 10,
+      "tid": 14
+    },
+    {
+      "layer": "Conv_25",
+      "task_position": 11,
+      "tid": 17
+    },
+    {
+      "layer": "Conv_27",
+      "task_position": 12,
+      "tid": 19
+    },
+    {
+      "layer": "Conv_29",
+      "task_position": 13,
+      "tid": 20
+    },
+    {
+      "layer": "Conv_32",
+      "task_position": 14,
+      "tid": 22
+    },
+    {
+      "layer": "Conv_34",
+      "task_position": 15,
+      "tid": 23
+    },
+    {
+      "layer": "Conv_37",
+      "task_position": 16,
+      "tid": 26
+    },
+    {
+      "layer": "Conv_39",
+      "task_position": 17,
+      "tid": 28
+    },
+    {
+      "layer": "Conv_41",
+      "task_position": 18,
+      "tid": 29
+    },
+    {
+      "layer": "Conv_44",
+      "task_position": 19,
+      "tid": 31
+    },
+    {
+      "layer": "Conv_46",
+      "task_position": 20,
+      "tid": 32
+    },
+    {
+      "layer": "Conv_49",
+      "task_position": 21,
+      "tid": 35
+    },
+    {
+      "layer": "Conv_51",
+      "task_position": 22,
+      "tid": 37
+    },
+    {
+      "layer": "Conv_53",
+      "task_position": 23,
+      "tid": 38
+    },
+    {
+      "layer": "Conv_56",
+      "task_position": 24,
+      "tid": 40
+    },
+    {
+      "layer": "Conv_58",
+      "task_position": 25,
+      "tid": 41
+    },
+    {
+      "layer": "Conv_61",
+      "task_position": 26,
+      "tid": 44
+    },
+    {
+      "layer": "Conv_63",
+      "task_position": 27,
+      "tid": 46
+    },
+    {
+      "layer": "Conv_65",
+      "task_position": 28,
+      "tid": 47
+    },
+    {
+      "layer": "Conv_68",
+      "task_position": 29,
+      "tid": 49
+    },
+    {
+      "layer": "Conv_70",
+      "task_position": 30,
+      "tid": 50
+    },
+    {
+      "layer": "Conv_73",
+      "task_position": 31,
+      "tid": 53
+    },
+    {
+      "layer": "Conv_75",
+      "task_position": 32,
+      "tid": 55
+    },
+    {
+      "layer": "Conv_77",
+      "task_position": 33,
+      "tid": 56
+    },
+    {
+      "layer": "Conv_80",
+      "task_position": 34,
+      "tid": 58
+    },
+    {
+      "layer": "Conv_82",
+      "task_position": 35,
+      "tid": 59
+    },
+    {
+      "layer": "Conv_85",
+      "task_position": 36,
+      "tid": 62
+    },
+    {
+      "layer": "Conv_87",
+      "task_position": 37,
+      "tid": 64
+    },
+    {
+      "layer": "Conv_89",
+      "task_position": 38,
+      "tid": 65
+    },
+    {
+      "layer": "Conv_92",
+      "task_position": 39,
+      "tid": 67
+    },
+    {
+      "layer": "Conv_94",
+      "task_position": 40,
+      "tid": 68
+    },
+    {
+      "layer": "Conv_97",
+      "task_position": 41,
+      "tid": 71
+    },
+    {
+      "layer": "Conv_99",
+      "task_position": 42,
+      "tid": 73
+    },
+    {
+      "layer": "Conv_101",
+      "task_position": 43,
+      "tid": 74
+    },
+    {
+      "layer": "Conv_104",
+      "task_position": 44,
+      "tid": 76
+    },
+    {
+      "layer": "Conv_106",
+      "task_position": 45,
+      "tid": 77
+    },
+    {
+      "layer": "Conv_109",
+      "task_position": 46,
+      "tid": 80
+    },
+    {
+      "layer": "Conv_111",
+      "task_position": 47,
+      "tid": 82
+    },
+    {
+      "layer": "Conv_113",
+      "task_position": 48,
+      "tid": 83
+    },
+    {
+      "layer": "Conv_116",
+      "task_position": 49,
+      "tid": 85
+    },
+    {
+      "layer": "Conv_118",
+      "task_position": 50,
+      "tid": 86
+    },
+    {
+      "layer": "Conv_121",
+      "task_position": 51,
+      "tid": 89
+    },
+    {
+      "layer": "Conv_123",
+      "task_position": 52,
+      "tid": 91
+    },
+    {
+      "layer": "Conv_125",
+      "task_position": 53,
+      "tid": 92
+    },
+    {
+      "layer": "Conv_128",
+      "task_position": 54,
+      "tid": 94
+    },
+    {
+      "layer": "Conv_130",
+      "task_position": 55,
+      "tid": 95
+    },
+    {
+      "layer": "Conv_133",
+      "task_position": 56,
+      "tid": 98
+    },
+    {
+      "layer": "Conv_134",
+      "task_position": 57,
+      "tid": 99
+    },
+    {
+      "layer": "Conv_136",
+      "task_position": 58,
+      "tid": 100
+    },
+    {
+      "layer": "Conv_139",
+      "task_position": 59,
+      "tid": 102
+    },
+    {
+      "layer": "Conv_141",
+      "task_position": 60,
+      "tid": 103
+    },
+    {
+      "layer": "Conv_144",
+      "task_position": 61,
+      "tid": 106
+    },
+    {
+      "layer": "Conv_146",
+      "task_position": 62,
+      "tid": 108
+    },
+    {
+      "layer": "Conv_148",
+      "task_position": 63,
+      "tid": 109
+    },
+    {
+      "layer": "Conv_151",
+      "task_position": 64,
+      "tid": 111
+    },
+    {
+      "layer": "Conv_153",
+      "task_position": 65,
+      "tid": 112
+    },
+    {
+      "layer": "Conv_156",
+      "task_position": 66,
+      "tid": 115
+    },
+    {
+      "layer": "Conv_158",
+      "task_position": 67,
+      "tid": 117
+    },
+    {
+      "layer": "Conv_160",
+      "task_position": 68,
+      "tid": 118
+    },
+    {
+      "layer": "Conv_163",
+      "task_position": 69,
+      "tid": 120
+    },
+    {
+      "layer": "Conv_165",
+      "task_position": 70,
+      "tid": 121
+    },
+    {
+      "layer": "Conv_168",
+      "task_position": 71,
+      "tid": 124
+    },
+    {
+      "layer": "Conv_170",
+      "task_position": 72,
+      "tid": 126
+    },
+    {
+      "layer": "Conv_172",
+      "task_position": 73,
+      "tid": 127
+    },
+    {
+      "layer": "Conv_175",
+      "task_position": 74,
+      "tid": 129
+    },
+    {
+      "layer": "Conv_177",
+      "task_position": 75,
+      "tid": 130
+    },
+    {
+      "layer": "Conv_180",
+      "task_position": 76,
+      "tid": 133
+    },
+    {
+      "layer": "Conv_182",
+      "task_position": 77,
+      "tid": 135
+    },
+    {
+      "layer": "Conv_184",
+      "task_position": 78,
+      "tid": 136
+    },
+    {
+      "layer": "Conv_187",
+      "task_position": 79,
+      "tid": 138
+    },
+    {
+      "layer": "Conv_189",
+      "task_position": 80,
+      "tid": 139
+    },
+    {
+      "layer": "Conv_192",
+      "task_position": 81,
+      "tid": 142
+    },
+    {
+      "layer": "Conv_194",
+      "task_position": 82,
+      "tid": 144
+    },
+    {
+      "layer": "Conv_196",
+      "task_position": 83,
+      "tid": 145
+    },
+    {
+      "layer": "Conv_199",
+      "task_position": 84,
+      "tid": 147
+    },
+    {
+      "layer": "Conv_201",
+      "task_position": 85,
+      "tid": 148
+    },
+    {
+      "layer": "Conv_204",
+      "task_position": 86,
+      "tid": 151
+    },
+    {
+      "layer": "Conv_206",
+      "task_position": 87,
+      "tid": 153
+    },
+    {
+      "layer": "Conv_208",
+      "task_position": 88,
+      "tid": 154
+    },
+    {
+      "layer": "Conv_211",
+      "task_position": 89,
+      "tid": 156
+    },
+    {
+      "layer": "Conv_213",
+      "task_position": 90,
+      "tid": 157
+    },
+    {
+      "layer": "Conv_216",
+      "task_position": 91,
+      "tid": 160
+    },
+    {
+      "layer": "Conv_218",
+      "task_position": 92,
+      "tid": 162
+    },
+    {
+      "layer": "Conv_220",
+      "task_position": 93,
+      "tid": 163
+    },
+    {
+      "layer": "Conv_223",
+      "task_position": 94,
+      "tid": 165
+    },
+    {
+      "layer": "Conv_225",
+      "task_position": 95,
+      "tid": 166
+    },
+    {
+      "layer": "Conv_228",
+      "task_position": 96,
+      "tid": 169
+    },
+    {
+      "layer": "Conv_230",
+      "task_position": 97,
+      "tid": 171
+    },
+    {
+      "layer": "Conv_232",
+      "task_position": 98,
+      "tid": 172
+    },
+    {
+      "layer": "Conv_235",
+      "task_position": 99,
+      "tid": 174
+    },
+    {
+      "layer": "Conv_237",
+      "task_position": 100,
+      "tid": 175
+    },
+    {
+      "layer": "Conv_240",
+      "task_position": 101,
+      "tid": 178
+    },
+    {
+      "layer": "Conv_242",
+      "task_position": 102,
+      "tid": 180
+    },
+    {
+      "layer": "Conv_244",
+      "task_position": 103,
+      "tid": 181
+    },
+    {
+      "layer": "Conv_247",
+      "task_position": 104,
+      "tid": 183
+    },
+    {
+      "layer": "Conv_249",
+      "task_position": 105,
+      "tid": 184
+    },
+    {
+      "layer": "Conv_252",
+      "task_position": 106,
+      "tid": 187
+    },
+    {
+      "layer": "Conv_254",
+      "task_position": 107,
+      "tid": 189
+    },
+    {
+      "layer": "Conv_256",
+      "task_position": 108,
+      "tid": 190
+    },
+    {
+      "layer": "Conv_259",
+      "task_position": 109,
+      "tid": 192
+    },
+    {
+      "layer": "Conv_261",
+      "task_position": 110,
+      "tid": 193
+    },
+    {
+      "layer": "Conv_264",
+      "task_position": 111,
+      "tid": 196
+    },
+    {
+      "layer": "Conv_266",
+      "task_position": 112,
+      "tid": 198
+    },
+    {
+      "layer": "Conv_268",
+      "task_position": 113,
+      "tid": 199
+    },
+    {
+      "layer": "Conv_271",
+      "task_position": 114,
+      "tid": 201
+    },
+    {
+      "layer": "Conv_273",
+      "task_position": 115,
+      "tid": 202
+    },
+    {
+      "layer": "Conv_276",
+      "task_position": 116,
+      "tid": 205
+    },
+    {
+      "layer": "Conv_278",
+      "task_position": 192,
+      "tid": 387
+    },
+    {
+      "layer": "Conv_280",
+      "task_position": 193,
+      "tid": 388
+    },
+    {
+      "layer": "Conv_283",
+      "task_position": 194,
+      "tid": 390
+    },
+    {
+      "layer": "Conv_285",
+      "task_position": 195,
+      "tid": 391
+    },
+    {
+      "layer": "Conv_288",
+      "task_position": 196,
+      "tid": 394
+    },
+    {
+      "layer": "Conv_290",
+      "task_position": 197,
+      "tid": 396
+    },
+    {
+      "layer": "Conv_292",
+      "task_position": 198,
+      "tid": 397
+    },
+    {
+      "layer": "Conv_295",
+      "task_position": 199,
+      "tid": 399
+    },
+    {
+      "layer": "Conv_297",
+      "task_position": 200,
+      "tid": 400
+    },
+    {
+      "layer": "Conv_300",
+      "task_position": 201,
+      "tid": 403
+    },
+    {
+      "layer": "Conv_302",
+      "task_position": 202,
+      "tid": 405
+    },
+    {
+      "layer": "Conv_304",
+      "task_position": 203,
+      "tid": 406
+    },
+    {
+      "layer": "Conv_307",
+      "task_position": 204,
+      "tid": 408
+    },
+    {
+      "layer": "Conv_309",
+      "task_position": 205,
+      "tid": 409
+    },
+    {
+      "layer": "Conv_312",
+      "task_position": 206,
+      "tid": 412
+    },
+    {
+      "layer": "Conv_314",
+      "task_position": 207,
+      "tid": 414
+    },
+    {
+      "layer": "Conv_316",
+      "task_position": 208,
+      "tid": 415
+    },
+    {
+      "layer": "Conv_319",
+      "task_position": 209,
+      "tid": 417
+    },
+    {
+      "layer": "Conv_321",
+      "task_position": 210,
+      "tid": 418
+    },
+    {
+      "layer": "Conv_324",
+      "task_position": 211,
+      "tid": 421
+    },
+    {
+      "layer": "Conv_326",
+      "task_position": 212,
+      "tid": 423
+    },
+    {
+      "layer": "Conv_328",
+      "task_position": 213,
+      "tid": 424
+    },
+    {
+      "layer": "Conv_331",
+      "task_position": 214,
+      "tid": 426
+    },
+    {
+      "layer": "Conv_333",
+      "task_position": 215,
+      "tid": 427
+    },
+    {
+      "layer": "Conv_336",
+      "task_position": 216,
+      "tid": 430
+    },
+    {
+      "layer": "Conv_337",
+      "task_position": 217,
+      "tid": 431
+    },
+    {
+      "layer": "Conv_339",
+      "task_position": 218,
+      "tid": 432
+    },
+    {
+      "layer": "Conv_342",
+      "task_position": 219,
+      "tid": 434
+    },
+    {
+      "layer": "Conv_344",
+      "task_position": 220,
+      "tid": 435
+    },
+    {
+      "layer": "Conv_347",
+      "task_position": 221,
+      "tid": 438
+    },
+    {
+      "layer": "Conv_349",
+      "task_position": 222,
+      "tid": 440
+    },
+    {
+      "layer": "Conv_351",
+      "task_position": 223,
+      "tid": 441
+    },
+    {
+      "layer": "Conv_354",
+      "task_position": 224,
+      "tid": 443
+    },
+    {
+      "layer": "Conv_356",
+      "task_position": 225,
+      "tid": 444
+    },
+    {
+      "layer": "Conv_359",
+      "task_position": 226,
+      "tid": 447
+    },
+    {
+      "layer": "Conv_361",
+      "task_position": 227,
+      "tid": 449
+    },
+    {
+      "layer": "Conv_363",
+      "task_position": 228,
+      "tid": 450
+    },
+    {
+      "layer": "Conv_366",
+      "task_position": 229,
+      "tid": 452
+    },
+    {
+      "layer": "Conv_368",
+      "task_position": 230,
+      "tid": 453
+    },
+    {
+      "layer": "Conv_371",
+      "task_position": 231,
+      "tid": 456
+    },
+    {
+      "layer": "Conv_373",
+      "task_position": 232,
+      "tid": 458
+    },
+    {
+      "layer": "Conv_375",
+      "task_position": 233,
+      "tid": 459
+    },
+    {
+      "layer": "Conv_378",
+      "task_position": 234,
+      "tid": 461
+    },
+    {
+      "layer": "Conv_380",
+      "task_position": 235,
+      "tid": 462
+    },
+    {
+      "layer": "Conv_383",
+      "task_position": 236,
+      "tid": 465
+    },
+    {
+      "layer": "Conv_385",
+      "task_position": 237,
+      "tid": 467
+    },
+    {
+      "layer": "Conv_387",
+      "task_position": 238,
+      "tid": 468
+    },
+    {
+      "layer": "Conv_390",
+      "task_position": 239,
+      "tid": 470
+    },
+    {
+      "layer": "Conv_392",
+      "task_position": 240,
+      "tid": 471
+    },
+    {
+      "layer": "Conv_395",
+      "task_position": 241,
+      "tid": 474
+    },
+    {
+      "layer": "Conv_397",
+      "task_position": 242,
+      "tid": 476
+    },
+    {
+      "layer": "Conv_399",
+      "task_position": 243,
+      "tid": 477
+    },
+    {
+      "layer": "Conv_402",
+      "task_position": 244,
+      "tid": 479
+    },
+    {
+      "layer": "Conv_404",
+      "task_position": 245,
+      "tid": 480
+    },
+    {
+      "layer": "Conv_407",
+      "task_position": 246,
+      "tid": 483
+    },
+    {
+      "layer": "Conv_409",
+      "task_position": 247,
+      "tid": 485
+    },
+    {
+      "layer": "Conv_411",
+      "task_position": 248,
+      "tid": 486
+    },
+    {
+      "layer": "Reshape_418",
+      "task_position": 249,
+      "tid": 487
+    }
+  ]
+}
